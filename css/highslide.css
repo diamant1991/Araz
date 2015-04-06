@@ -10,9 +10,9 @@
 	outline: none;
 	text-decoration: none;
 }
-.highslide img {
+/*.highslide img {
 	border: 2px solid silver;
-}
+}*/
 .highslide:hover img {
 	border-color: gray;
 }
