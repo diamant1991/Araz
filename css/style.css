@@ -773,3 +773,8 @@ strong{
 	margin-right: 23px;
 	margin-bottom: 20px;
 }
+.gallery-block{
+	background-color: #e8e8e8;
+	width:320px;
+	padding: 5px 5px 10px 5px;
+}
