@@ -12,6 +12,7 @@
 	<meta name="description" content="">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nivo-slider.css">
 	<script src="js/modernizr-2.8.3.min.js"></script>
 	
 </head>
@@ -54,12 +55,57 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="menu clearfix">
-				<ul>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Партнеры</a></li>
-					<li><a href="#">СМИ о нас</a></li>
-					<li><a href="#">Контакты</a></li>
+				<ul class="menu-parent">
+					<li>
+						<a href="#">О нас</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Партнеры</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">СМИ о нас</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
 				</ul>
 				<ul class="other-link">
 					<li>
@@ -70,7 +116,7 @@
 
 					</li>
 					<li>
-						<a href="#">
+						<a class="video-btn">
 						Видео
 						<span class="arrow"></span>
 						</a>
@@ -81,11 +127,83 @@
 		</div>
 	</div>
 </header>
-<div class="slider-container">
+<section class="video-slider">
 	<div class="container">
-		<div class="slide">
-			<img src="images/slide.jpg" alt="">
-		</div>
+		<div class="carousel"> 
+		      <div class="carousel-button-left"><a href="#"></a></div> 
+		      <div class="carousel-button-right"><a href="#"></a></div> 
+				<div class="carousel-wrapper"> 
+				   <div class="carousel-items"> 
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>            
+					  <div class="carousel-block"> 
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+				   </div>
+				</div>
+   </div>
+	</div>
+</section>
+<div class="slider-container-2">
+	<div class="container">
+		<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt=""  title="#slide-caption-1">
+                <img src="images/highslide-2.jpg" data-thumb="images/highslide-2.jpg" alt="" title="#slide-caption-2">
+            </div>
+            <div id="slide-caption-1" class="nivo-html-caption">
+				<h2>Турция уважает границы соседних стран</h2>
+				<p>Министр иностранных дел Турции заявил, что Турция проявляла уважение к границам соседних стран. Но у нас нет 
+				никаких границ, когда люди, которые являются жертвами жестокости, cтучаться в наши...</p>
+			</div>
+			<div id="slide-caption-2" class="nivo-html-caption">
+				<h2>Заголовок</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet neque aut architecto, odio eaque, nulla dolore dolor magni, iste fugit incidunt culpa soluta vero optio perferendis odit exercitationem impedit sed!.</p>
+			</div>
+        </div>
 	</div>
 </div>
 
@@ -114,15 +232,70 @@
 				<li><a href="#">Видеогалерея</a></li>
 			</ul>
 			<div class="other-anons">
-				<h3>Анонсы</h3>
-				<div class="anons-block top-anons">
-					<div class="anons-img">
-						<img src="images/anons.jpg" alt="">
-					</div>
-					<p>
-						Азербайджанская Республика — страна древней культуры
-					</p>	
+				<div class="sidetitle1">
+				<div>Анонсы</div>
+				<div>
+					<span>1/5</span>
+					<span title="Назад" class="st_left">Назад</span>
+					<span title="Вперед" class="st_right">Вперед</span>
 				</div>
+			</div>
+			<div class="sideblock1">
+				<div>
+					<ul >
+						<li>
+						  
+							<div>
+							<a href="#">
+							<img  src="images/anons.jpg" class="attachment-size3 wp-post-image" alt="" title=""> 
+							</a>
+							</div>
+							 
+							<p><a href="#">Азербайджанская Республика — страна древней культуры</a></p> 
+						</li>
+						<li>
+						  
+							<div>
+							<a href="#">
+							<img  src="images/anons.jpg" class="attachment-size3 wp-post-image" alt="" title=""> 
+							</a>
+							</div>
+							 
+							<p><a href="#">Азербайджанская Республика — страна древней культуры</a></p> 
+						</li>
+						<li>
+						  
+							<div>
+							<a href="#">
+							<img  src="images/anons.jpg" class="attachment-size3 wp-post-image" alt="" title=""> 
+							</a>
+							</div>
+							 
+							<p><a href="#">Азербайджанская Республика — страна древней культуры</a></p> 
+						</li>
+						<li>
+						  
+							<div>
+							<a href="#">
+							<img  src="images/anons.jpg" class="attachment-size3 wp-post-image" alt="" title=""> 
+							</a>
+							</div>
+							 
+							<p><a href="#">Азербайджанская Республика — страна древней культуры</a></p> 
+						</li>
+						<li>
+						  
+							<div>
+							<a href="#">
+							<img  src="images/anons.jpg" class="attachment-size3 wp-post-image" alt="" title=""> 
+							</a>
+							</div>
+							 
+							<p><a href="#">Азербайджанская Республика — страна древней культуры</a></p> 
+						</li>
+					</ul>
+				</div>
+			</div>
 			</div>
 			
 		
@@ -259,7 +432,7 @@
 		<fieldset>
 			<h3>Вход в личный кабинет</h3>
 			<input type="text" placeholder="Логин"> <br>
-			<input type="text" placeholder="Пароль"> <br>
+			<input type="password" placeholder="Пароль"> <br>
 			<input type="submit" value="Вход">
 		</fieldset>
 	</form>
@@ -276,8 +449,8 @@
 			<input type="text" placeholder="Сайт"> <br>
 			<input type="text" class="star-place third" placeholder="E-mail"> <br>
 			<input type="text" placeholder="Вид деятельности компании"> <br>
-			<input type="text" placeholder="Пароль"> <br>
-			<input type="text" placeholder="Повторить пароль"> <br>
+			<input type="password" placeholder="Пароль"> <br>
+			<input type="password" placeholder="Повторить пароль"> <br>
 			<input type="text" placeholder="Рекомендации от компании(не менее 2 компаний)"> <br>
 			<input type="text" placeholder="Адрес"> <br>
 			<textarea placeholder="Текст"></textarea> <br>
@@ -288,5 +461,21 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+           effect: 'fade',
+           pauseTime: 5000,
+           pauseOnHover: false,
+           prevText: "",
+           nextText: "",    
+            })
+        
+    });
+    </script>
+  <script src="js/carousel.js"></script>
+  <script src="js/jquery.jcarousel.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

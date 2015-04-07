@@ -55,12 +55,57 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="menu clearfix">
-				<ul>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Партнеры</a></li>
-					<li><a href="#">СМИ о нас</a></li>
-					<li><a href="#">Контакты</a></li>
+				<ul class="menu-parent">
+					<li>
+						<a href="#">О нас</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Партнеры</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">СМИ о нас</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+						<ul class="menu-child">
+							<li><a href="#">Кухня</a></li>
+							<li><a href="#">Личности</a></li>
+							<li><a href="#">Права человека</a></li>
+							<li><a href="#">Религия</a></li>
+							<li><a href="#">Спорт</a></li>
+						</ul>
+					</li>
 				</ul>
 				<ul class="other-link">
 					<li>
@@ -71,7 +116,7 @@
 
 					</li>
 					<li>
-						<a href="#">
+						<a class="video-btn">
 						Видео
 						<span class="arrow"></span>
 						</a>
@@ -82,7 +127,66 @@
 		</div>
 	</div>
 </header>
-
+<section class="video-slider">
+	<div class="container">
+		<div class="carousel"> 
+		      <div class="carousel-button-left"><a href="#"></a></div> 
+		      <div class="carousel-button-right"><a href="#"></a></div> 
+				<div class="carousel-wrapper"> 
+				   <div class="carousel-items"> 
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+					  <div class="carousel-block">
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>            
+					  <div class="carousel-block"> 
+							<a href="#"><img src="images/video.jpg" alt="" ></a>
+							<div class="video-desc">
+								Сака-якуты
+							</div>
+					  </div>
+				   </div>
+				</div>
+   </div>
+	</div>
+</section>
 
 <div class="content cont-shadow">
 	<div class="container clearfix">
@@ -251,7 +355,7 @@
 		<fieldset>
 			<h3>Вход в личный кабинет</h3>
 			<input type="text" placeholder="Логин"> <br>
-			<input type="text" placeholder="Пароль"> <br>
+			<input type="password" placeholder="Пароль"> <br>
 			<input type="submit" value="Вход">
 		</fieldset>
 	</form>
@@ -268,8 +372,8 @@
 			<input type="text" placeholder="Сайт"> <br>
 			<input type="text" class="star-place third" placeholder="E-mail"> <br>
 			<input type="text" placeholder="Вид деятельности компании"> <br>
-			<input type="text" placeholder="Пароль"> <br>
-			<input type="text" placeholder="Повторить пароль"> <br>
+			<input type="password" placeholder="Пароль"> <br>
+			<input type="password" placeholder="Повторить пароль"> <br>
 			<input type="text" placeholder="Рекомендации от компании(не менее 2 компаний)"> <br>
 			<input type="text" placeholder="Адрес"> <br>
 			<textarea placeholder="Текст"></textarea> <br>
@@ -303,5 +407,7 @@
         }
     });
 </script>
+<script src="js/carousel.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
