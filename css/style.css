@@ -285,6 +285,9 @@ a:hover{
 		color: #088cbd;
 		margin-top: 6px;
 	}
+		.neg-rat{
+			color: #9e0b0f;
+		}
 	.currency table thead{
 		color: #666;
 	}
@@ -1013,4 +1016,91 @@ strong{
 	background: url(../images/valute.png)no-repeat;
 	background-position: 1px;
 	cursor: pointer;
+}
+/*----------------------------Слайдер------------------------*/
+.control
+ {
+ z-index: 9;
+ left: 90px;
+ bottom: 14px;
+ overflow: hidden;
+ width: 810px;
+ height: 51px;
+ position: absolute;
+}
+.control div
+{
+ position: absolute;
+ left: 0;
+ top: 0;
+ overflow: hidden;
+ width: 9999px;
+}
+.control a
+{
+ float: left;
+ width: 88px;
+ height: 49px;
+ margin-right: 2px;
+ cursor: pointer;
+}
+.control a img
+{
+ display: block;
+ width: 87px;
+ height: 48px;
+  border: 1px solid #fff;
+}
+	.control a img:hover,.control a.active img{
+		border: 1px solid #007fc3;
+	}
+/*------------------------------------------------*/
+/*	=	Select */
+.slct {
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #cecece;
+	background-color: #F6F6f6;
+	width: 70px;
+	padding: 4px 15px 4px 10px;
+	color: #444;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;	
+
+}
+.slct.active {
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+}
+.drop {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	border: 1px solid #cecece;
+	border-top: none;
+	display: none;
+	position: absolute;
+	background: #fff;
+}
+.drop li {
+	list-style: none;
+	border-top: 1px dotted #e8e8e8;
+	cursor: pointer;
+	display: block;
+	color: #444;
+	padding: 4px 15px 4px 25px;
+	background-position: 10px -119px;
+}
+.drop li:hover {
+	background-color: #e8e8e8;
+	color: #222;
+}
+
+@media (max-height: 700px){
+	#register{
+		margin-top: 0;
+		top: 5%;
+	}
 }

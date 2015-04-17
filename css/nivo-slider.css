@@ -81,7 +81,10 @@
 	filter:alpha(opacity=8);*/
 	-webkit-box-sizing: border-box; 
 	-moz-box-sizing: border-box;   
-	box-sizing: border-box;         
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.8);
+    padding-left: 10px;
+    padding-right: 10px;         
 }
 	.nivo-caption h2{
 		font-size: 25px;
@@ -126,7 +129,7 @@
 	text-align:center;
 	padding: 15px 0;
 	position: relative;
-  	top: -55px;
+  	top: -82px;
   	z-index: 7;
 }
 .nivo-controlNav a {
@@ -135,3 +138,14 @@
 .nivo-controlNav a.active {
 	font-weight:bold;
 }
+.nivo-control img{
+	width: 90px;
+	height: 50px;
+	border: 1px solid #fff;
+}
+.nivo-control{
+	margin-right: 3px;
+}	
+	.nivo-control.active img{
+		border: 1px solid #007fc3;
+	}
