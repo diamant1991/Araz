@@ -36,8 +36,8 @@
 			</div>
 		</div>
 		<div class="right-block">
-			<a class="enter-btn">Вход в личный кабинет</a>
-			<a class="register">Регистрация</a>
+			<a class="enter-btn" href="#">Вход в личный кабинет</a>
+			<a class="register" href="#">Регистрация</a>
 		</div>
 	</div>
 </div>
@@ -318,11 +318,20 @@
 				<div class="after-table">
 					<div class="valute-block clearfix">
 						<div class="valute-left">
-							<span class="icon-arr">USD, $</span>
+							<div class="select">
+								<a href="javascript:void(0);" class="slct">USD, $</a>
+								<ul class="drop">
+									<li><a >EUR</a></li>
+									<li><a >RUB</a></li>
+									<li><a >USD, $</a></li>
+									<li><a >USD, $</a></li>
+								</ul>
+								<input type="hidden" id="select" />
+							</div>
 
 						</div>
 						<div class="valute-right">
-							<span>1000</span>
+							<input type="text">
 						</div>
 					</div>
 					<div style="text-align:center">
@@ -330,10 +339,19 @@
 					</div>
 					<div class="valute-block clearfix">
 						<div class="valute-left">
-							<span class="icon-arr">USD, $</span>
+							<div class="select">
+								<a href="javascript:void(0);" class="slct">USD, $</a>
+								<ul class="drop">
+									<li><a >EUR</a></li>
+									<li><a >RUB</a></li>
+									<li><a >USD, $</a></li>
+									<li><a >USD, $</a></li>
+								</ul>
+								<input type="hidden" id="select" />
+							</div>
 						</div>
 						<div class="valute-right">
-							<span>1000</span>
+							<input type="text">
 						</div>
 					</div>
 				</div>
@@ -558,5 +576,6 @@
   <script src="js/carousel.js"></script>
   <script src="js/jquery.jcarousel.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/dropdown.js"></script>
 </body>
 </html>

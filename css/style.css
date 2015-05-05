@@ -61,6 +61,8 @@ a:hover{
 	top: -5px;
 	padding: 0 9px;
 	padding-top: 8px;
+	color: #fff;
+	text-decoration: none;
 	-webkit-transition: 0.2s all ease-in-out;
 	-o-transition: 0.2s all ease-in-out;
 	transition: 0.2s all ease-in-out;
@@ -999,13 +1001,22 @@ strong{
 	width: 76px;
 	float: left;
 	border-right: 1px solid #666;
-	padding: 8px 5px;
 }
 .valute-right{
 	float: right;
 	width: 164px;
-	padding: 8px 5px;
 }
+	.valute-right input{
+		width: 100%;
+		border:0;
+		outline: 0;
+		padding-left: 10px;
+		height: 28px;
+		font-family: Tahoma,sans-serif;
+		font-size: 12px;
+		color: #323232;
+	}
+
 .valute-block{
 	background-color: #fff;
 	border: 2px solid #666;
@@ -1058,40 +1069,41 @@ strong{
 /*	=	Select */
 .slct {
 	display: block;
-	border-radius: 5px;
-	border: 1px solid #cecece;
-	background-color: #F6F6f6;
-	width: 70px;
-	padding: 4px 15px 4px 10px;
-	color: #444;
+	width: 76px;
+	padding: 7px 2px 0px 15px;
 	overflow: hidden;
 	white-space:nowrap;
 	text-overflow: ellipsis;
-	-o-text-overflow: ellipsis;	
+	-o-text-overflow: ellipsis;
+	text-decoration: none;
+	color: #323232;
+	font-size: 12px;
+	font-family: Tahoma,sans-serif;
+	height: 28px;
+	background: url(../images/valute.png)no-repeat;
+	background-position: 4px;
+	cursor: pointer;
+}
 
-}
-.slct.active {
-	border-radius: 5px 5px 0 0;
-	border-bottom: none;
-}
 .drop {
 	margin: 0;
 	padding: 0;
-	width: 70px;
-	border: 1px solid #cecece;
+	width: 78px;
+	border: 1px solid #666;
+	border-left: 2px solid #666;
+	border-bottom: 2px solid #666;
 	border-top: none;
 	display: none;
 	position: absolute;
 	background: #fff;
+	left: 0;
 }
 .drop li {
 	list-style: none;
-	border-top: 1px dotted #e8e8e8;
 	cursor: pointer;
 	display: block;
-	color: #444;
-	padding: 4px 15px 4px 25px;
-	background-position: 10px -119px;
+	color: #323232;
+	padding: 4px 2px 4px 15px;
 }
 .drop li:hover {
 	background-color: #e8e8e8;
